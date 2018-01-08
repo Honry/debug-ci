@@ -123,7 +123,7 @@ def call(*args):
 
 def fetch_wpt(user, *args):
     git = get_git_cmd(wpt_root)
-    git("fetch", "https://github.com/%s/web-platform-tests.git" % user, *args)
+    git("fetch", "https://github.com/%s/debug-ci.git" % user, *args)
 
 
 def get_sha1():
